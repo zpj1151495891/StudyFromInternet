@@ -9,6 +9,7 @@
 </head>
 <body>
 <h2>Student Information</h2>
+<%--@elvariable id="user" type="java"--%>
 <form:form method="POST" action="/HelloWeb/addStudent" modelAttribute="user">
    <table>
     <tr>

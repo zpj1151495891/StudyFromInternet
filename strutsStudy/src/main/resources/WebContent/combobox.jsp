@@ -21,7 +21,7 @@
 <h2>
 	<s:combobox label="Select a month" 
 		headerKey="-1" 
-		list="#{'1':'Jan', '2':'Feb', '3':'Mar', '4':'Apr'}" 
+		list="{'1':'Jan', '2':'Feb', '3':'Mar', '4':'Apr'}"
 		name="yourMonth" />
 </h2> 
 

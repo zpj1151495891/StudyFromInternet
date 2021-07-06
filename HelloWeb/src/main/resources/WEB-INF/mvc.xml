@@ -13,7 +13,7 @@
        <!-- 启用注解 -->
      <mvc:annotation-driven />
 	 <context:component-scan base-package="com.springWeb.Controller"/>
-	 <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer"> 
+	 <bean id="freemarkerConfig" class="org.springframework.ui.freemarker.FreeMarkerConfigurationFactory">
 	 	<property name="freemarkerSettings">
 	 	<bean class="org.springframework.beans.factory.config.PropertiesFactoryBean">
 				<property name="properties">
@@ -27,7 +27,7 @@
         <property name="templateLoaderPath">  
             <value>/WEB-INF/html/</value>  
         </property>  
-    </bean> 
+    </bean>
 	 <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">  
         <property name="suffix" value=".html" /> 
         <property name="contentType" value="text/html" /> 
