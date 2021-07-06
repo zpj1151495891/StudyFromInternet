@@ -4,13 +4,13 @@ public class study {
 	 public static void  main(String[] args) {
 		         String num1 = "2333";
 		          String num2 = "414.0";
-		          //整型字符串可以使用以下方法直接转为int
+		          //鏁村瀷瀛楃涓插彲浠ヤ娇鐢ㄤ互涓嬫柟娉曠洿鎺ヨ浆涓篿nt
 		          int intNum1 = Integer.parseInt(num1);
 		          int intNum3 = Integer.valueOf(num1);
-		         //浮点型字符串不能使用以下方法直接转为整型int
+		         //娴偣鍨嬪瓧绗︿覆涓嶈兘浣跨敤浠ヤ笅鏂规硶鐩存帴杞负鏁村瀷int
 		         //int intNum1 = Integer.parseInt(num2);
 		         //int intNum3 = Integer.valueOf(num2);
-		         //如果要转则需要先转为"double"型，再转为int
+		         //濡傛灉瑕佽浆鍒欓渶瑕佸厛杞负"double"鍨嬶紝鍐嶈浆涓篿nt
 		         Double douNum1 = Double.valueOf(num1);
 		         Double douNum2 = Double.valueOf(num2);
 		         
