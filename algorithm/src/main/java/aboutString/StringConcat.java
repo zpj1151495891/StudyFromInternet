@@ -2,7 +2,7 @@ package aboutString;
 
 public class StringConcat {
 	/**
-	 * ×Ö·û´®Á¬½Ó
+	 * å­—ç¬¦ä¸²è¿æ¥
 	 * @param args
 	 */
 	public static void main(String []args) {
@@ -14,8 +14,8 @@ public class StringConcat {
 					 	+ "String"+ "and"+ "StringBuffer";
 		 }
 		 long endTime = System.currentTimeMillis();
-		 System.out.println("×Ö·û´®Á¬½Ó" 
-				 + " - Ê¹ÓÃ + ²Ù×÷·û : " 
+		 System.out.println("å­—ç¬¦ä¸²è¿æ¥" 
+				 + " - ä½¿ç”¨ + æ“ä½œç¬¦ : " 
 				 + (endTime - startTime)+ " ms");
 		 long startTime1 = System.currentTimeMillis();
 		 for(int i=0;i<5000;i++){
@@ -29,8 +29,8 @@ public class StringConcat {
 			 result.append("StringBuffer");
 		 }	
 		 long endTime1 = System.currentTimeMillis();
-		 System.out.println("×Ö·û´®Á¬½Ó" 
-				 + " - Ê¹ÓÃ StringBuffer : "
+		 System.out.println("å­—ç¬¦ä¸²è¿æ¥" 
+				 + " - ä½¿ç”¨ StringBuffer : "
 				 + (endTime1 - startTime1)+ " ms");
 			}
 		}

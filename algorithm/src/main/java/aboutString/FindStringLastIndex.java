@@ -2,15 +2,15 @@ package aboutString;
 
 public class FindStringLastIndex {
 	/**
-	 * ²éÕÒ×Ö·û´®×îºóÒ»´Î³öÏÖµÄÎ»ÖÃ
+	 * æŸ¥æ‰¾å­—ç¬¦ä¸²æœ€åä¸€æ¬¡å‡ºç°çš„ä½ç½®
 	 */
 	public static void main(String[]args) {
 		 String strOrig = "Hello world ,Hello Runoob";
 		 int lastIndex = strOrig.lastIndexOf("Runoob");
 		 if(lastIndex == - 1){
-			 System.out.println("Ã»ÓĞÕÒµ½×Ö·û´® Runoob");
+			 System.out.println("æ²¡æœ‰æ‰¾åˆ°å­—ç¬¦ä¸² Runoob");
 		 }else{
-			 System.out.println("Runoob ×Ö·û´®×îºó³öÏÖµÄÎ»ÖÃ£º "+ lastIndex);
+			 System.out.println("Runoob å­—ç¬¦ä¸²æœ€åå‡ºç°çš„ä½ç½®ï¼š "+ lastIndex);
 		 }
 	}
 

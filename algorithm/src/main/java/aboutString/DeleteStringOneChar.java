@@ -2,7 +2,7 @@ package aboutString;
 
 public class DeleteStringOneChar {
 	/**
-	 * É¾³ý×Ö·û´®ÖÐµÄÒ»¸ö×Ö·û
+	 * åˆ é™¤å­—ç¬¦ä¸²ä¸­çš„ä¸€ä¸ªå­—ç¬¦
 	 * @param args
 	 */
 	public static void main(String[]args) {

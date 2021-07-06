@@ -2,7 +2,7 @@ package aboutString;
 
 public class CompareString {
 	/**
-	 * ×Ö·û´®±È½Ï
+	 * å­—ç¬¦ä¸²æ¯”è¾ƒ
 	 * @param args
 	 */
 	public static void main(String[]args) {
@@ -10,7 +10,7 @@ public class CompareString {
 		String anotherString = "hello world";
 		Object objStr = str;
 		System.out.println( str.compareTo(anotherString) );
-		System.out.println( str.compareToIgnoreCase(anotherString) );  //ºöÂÔ´óĞ¡Ğ´
+		System.out.println( str.compareToIgnoreCase(anotherString) );  //å¿½ç•¥å¤§å°å†™
 		System.out.println( str.compareTo(objStr.toString()));
 	}
 	
